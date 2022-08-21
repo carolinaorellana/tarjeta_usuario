@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: darkcyan;
+    margin-top: 2rem ;
+}
+.tarjeta{
+    margin: 5rem auto;
+    width: 40rem;
+}
+/*Barra Superior*/
+.celeste{
+    height: 6rem;
+    background-color: darkcyan;
+}
+/*Barra fondo gris*/
+.gris{
+    background-color: whitesmoke;
+    border: solid 4px lightgrey;
+    padding-inline: 2.5rem;
+    height: 16rem;
+}
+.position{
+    position: relative;
+    top: -4rem;
+}
+.perfil{
+    font-size: 1.5rem;
+}
+.perfil img{
+    width: 7rem;
+    border: solid 4px lightgray;
+    border-radius: 50%;
+}
+/* El modulo de la ubicación esta listo*/
+.ubicacion, .configuracion{
+    display: flex;
+    margin-block: 0.8rem;
+    align-items: center;
+}
+.ubicacion img, .configuracion img{
+    height: 1.3rem;
+    margin-right: 0.5rem;
+}
+.ubicacion p{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.configuracion a, a:visited{
+    color: #2B78E4;
+    font-weight: 300;
+}
+.configuracion a:hover{
+    font-weight: 600;
+}
+
